@@ -20,6 +20,7 @@
   squash = commit --squash
   unstage = reset HEAD
   rum = rebase master@{u}
-
 [core]
   editor = /usr/local/bin/vim
+[push]
+  default = current
