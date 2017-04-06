@@ -102,6 +102,7 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
       \ --ignore "**/*.pyc"
       \ --ignore "log"
       \ --ignore "tmp"
+      \ --ignore "vendor"
       \ -g ""'
 
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
