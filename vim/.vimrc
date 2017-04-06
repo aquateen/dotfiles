@@ -20,7 +20,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'kien/ctrlp.vim'
 Plugin 'felikz/ctrlp-py-matcher'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Bundle 'edkolev/promptline.vim'
 Bundle 'edkolev/tmuxline.vim'
 Plugin 'chrisbra/csv.vim'
@@ -86,7 +87,8 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 colorscheme tomorrow-night
 
-let g:promptline_theme = 'airline'
+let g:airline_theme='base16'
+" let g:promptline_theme = 'airline'
 " To get the chevron arrows to display properly
 let g:airline_powerline_fonts = 1
 " Fixes performance issues w/ CtrlP
