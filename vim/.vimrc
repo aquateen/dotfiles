@@ -25,6 +25,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Bundle 'edkolev/promptline.vim'
 Bundle 'edkolev/tmuxline.vim'
 Plugin 'chrisbra/csv.vim'
+Plugin 'valloric/matchtagalways'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
