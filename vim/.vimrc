@@ -22,11 +22,8 @@ Plugin 'felikz/ctrlp-py-matcher'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Bundle 'edkolev/promptline.vim'
-Bundle 'edkolev/tmuxline.vim'
 Plugin 'chrisbra/csv.vim'
 Plugin 'valloric/matchtagalways'
-Plugin 'elixir-lang/vim-elixir'
 Plugin 'derekwyatt/vim-scala'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
